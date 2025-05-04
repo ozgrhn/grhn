@@ -5,7 +5,7 @@ import { createRouter, RouterProvider } from "@tanstack/react-router";
 import { routeTree } from "./routeTree.gen";
 import "tailwindcss";
 
-const router = createRouter({ routeTree, basepath: "/grhn" });
+const router = createRouter({ routeTree, basepath: "/" });
 
 declare module "@tanstack/react-router" {
   interface Register {

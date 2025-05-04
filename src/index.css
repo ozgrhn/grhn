@@ -103,7 +103,7 @@ body, #root, main {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  animation: fadeInDown 3s ease-in-out;
+  animation: fadeInUp 3s ease-in-out;
 }
 
 
